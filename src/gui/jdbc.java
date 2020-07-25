@@ -8,7 +8,7 @@ public class jdbc {
 
 		try {
 			// Verbindung Datenbank
-			Connection myConn = DriverManager.getConnection("jdbc:mysql://remotemysql.com/X7MoXa8AEB?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" , "X7MoXa8AEB" , "loK6LV68qp");
+			Connection myConn = DriverManager.getConnection("jdbc:mysql://remotemysql.com/X7MoXa8AEB?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" , "name" , "password");
 			return myConn;
 			/*
 			//Statement erschaffen
